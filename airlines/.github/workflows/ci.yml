@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: setup
       working-directory: ./airlines
     - name: Run Django unit tests
       working-directory: ./airlines
